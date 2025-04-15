@@ -1,0 +1,9 @@
+rulesFolder: /app/rulesets/
+elasticsearch: "http://ELASTICSEARCH_HOST:ELASTICSEARCH_PORT"
+postgresql:
+  server: POSTGRESQL_HOST
+  port: POSTGRESQL_PORT
+  user: POSTGRESQL_USER
+  password: "POSTGRESQL_PASSWORD"
+  database: POSTGRESQL_DATABASE
+errorLevel: ERROR_LEVEL

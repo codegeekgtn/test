@@ -1,0 +1,16 @@
+# UTMStack Configuration
+server_type: "aio"  # or "cloud"
+server_name: "utmstack-server"
+main_server: ""     # Will be auto-detected
+password: ""        # Will be auto-generated if empty
+internal_key: ""    # Will be auto-generated if empty
+branch: "v10"       # Version branch
+data_dir: "/utmstack"
+
+# Cloud-specific configuration (only used when server_type is "cloud")
+cloud_provider: "aws"  # or "azure", "gcp"
+region: "us-east-1"
+vpc_id: ""
+subnet_id: ""
+instance_type: "t3.large"
+volume_size: 100  # in GB 

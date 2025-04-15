@@ -1,0 +1,44 @@
+.log-fields {
+  min-width: 300px;
+}
+
+
+.field-view {
+  height: 100%;
+}
+
+app-log-analyzer-field {
+  height: 100%;
+}
+
+.search-container {
+  flex-basis: 50%;
+}
+
+@media screen and (min-width: 1550px) and (max-width: 1599px) {
+  .search-container {
+    flex-basis: 55%;
+  }
+}
+
+@media screen and (min-width: 1600px)  {
+  .search-container {
+    flex-basis: 65%;
+  }
+}
+
+.btn-refresh {
+  background-color: #d3dae696;
+  color: #0277bd;
+  height: 36px !important;
+  border: 1px solid #d3dae696;
+}
+
+.gap-1 {
+  gap: .25rem;
+}
+
+.gap-2 {
+  gap: .5rem;
+}
+
